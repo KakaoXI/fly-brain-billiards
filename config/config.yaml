@@ -1,0 +1,57 @@
+capture_fps: 15
+brain_speed: 1.0
+neural_dt_ms: 0.5
+retina_resolution: [160, 90]
+control_rate: 15
+seed: 42
+deterministic: false
+background_drive: 0.0
+plasticity_enabled: true
+reward_enabled: true
+manual_learning_enabled: true
+imitation_enabled: false
+learning_rate: 0.001
+max_key_hold_time: 0.3
+dashboard_timeout: 2.5
+checkpoint_interval: 120
+adapter: studio # Integrazione Studio; Roblox Player usa automaticamente screen-only.
+record_frames: true
+detailed_recording: false
+max_session_mb: 1024
+lamina_bias: 12.0
+retina_current: 30.0
+dopamine_current: 20.0
+dopamine_pulse_ms: 200
+r8_ame12_sign_override: true
+motor_thresholds:
+  forward: 5.0
+  backward: 5.0
+  turn: 5.0
+  jump: 10.0
+motor_populations:
+  forward: [DNp09]
+  backward: [MDN]
+  left: [DNa02, DNg13]
+  right: [DNa02, DNg13]
+  jump: [MN9]
+# Il decoder e le soglie sono interfacce artificiali, non funzioni dimostrate.
+# Alternativa esplicita da DOOMFLY: forward [DNpe017], left/right [DNp20].
+reward_strengths:
+  FOOD_CONSUMED: 1.0
+  HEALTH_GAIN: 0.3
+  PICKUP: 0.5
+  GOAL: 1.0
+  EXPLORE: 0.1
+  SURVIVED: 0.2
+  DAMAGE: -0.5
+  DEATH: -1.0
+  FALL: -0.7
+  STUCK: -0.1
+  MANUAL_POSITIVE: 1.0
+  MANUAL_NEGATIVE: -1.0
+generic:
+  health_roi: null
+  health_rgb: [60, 200, 70]
+  color_tolerance: 60
+  health_change_threshold: 0.1
+  templates: []

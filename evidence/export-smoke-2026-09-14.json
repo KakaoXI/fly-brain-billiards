@@ -1,0 +1,17 @@
+{
+  "scope": "Standalone export, pinned upstream checkouts, verified local copies of existing prepared data, existing pinned Python environment",
+  "fresh_data_download_tested": false,
+  "fresh_python_environment_tested": false,
+  "neurons": 166700,
+  "edges": 25582938,
+  "graph_hash": "f4d41f011e97e510761d011634891b1c082f61f91463eb586ee9cf8c6371b1d1",
+  "model_hash": "218254910d445818a3bb2e3a3698c654038b4c1f48b36d2a5dafa10ada654634",
+  "neural_window_ms": 40,
+  "spikes": 23815,
+  "wall_ms": 9.6236,
+  "application_python_tests_passed": 39,
+  "setup_python_tests_passed": 2,
+  "javascript_tests_passed": 11,
+  "saved_memory_modified": false,
+  "game_server_started": false
+}

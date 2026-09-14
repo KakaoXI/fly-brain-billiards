@@ -1,0 +1,11 @@
+{
+  "name": "fly-brain-billiards",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local full-connectome fly billiards experiment",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test biliardo/tests/test_input.mjs biliardo/tests/test_mouse.mjs"
+  }
+}
